@@ -23,6 +23,7 @@
 			
 				update_option( 'wp_datepicker', sanitize_text_field($_POST['wp_datepicker']));
 				update_option( 'wp_datepicker_language', sanitize_text_field($_POST['wp_datepicker_language']));
+				update_option( 'wp_datepicker_readonly', sanitize_text_field($_POST['wp_datepicker_readonly']));
 			}
 			
 		
